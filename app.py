@@ -68,7 +68,7 @@ def display_input(label, tooltip, key, type="text"):
 
 # Diabetes Prediction Page
 if selected == 'Diabetes Prediction':
-    st.title('Diabetes Prediction using ML')
+    st.title('Diabetes')
     st.write("Enter the following details to predict diabetes:")
 
     Pregnancies = display_input('Number of Pregnancies', 'Enter number of times pregnant', 'Pregnancies', 'number')
@@ -88,7 +88,7 @@ if selected == 'Diabetes Prediction':
 
 # Heart Disease Prediction Page
 if selected == 'Heart Disease Prediction':
-    st.title('Heart Disease Prediction using ML')
+    st.title('Heart Disease')
     st.write("Enter the following details to predict heart disease:")
 
     age = display_input('Age', 'Enter age of the person', 'age', 'number')
@@ -113,7 +113,7 @@ if selected == 'Heart Disease Prediction':
 
 # Parkinson's Prediction Page
 if selected == "Parkinsons Prediction":
-    st.title("Parkinson's Disease Prediction using ML")
+    st.title("Parkinson's Disease")
     st.write("Enter the following details to predict Parkinson's disease:")
 
     fo = display_input('MDVP:Fo(Hz)', 'Enter MDVP:Fo(Hz) value', 'fo', 'number')
@@ -147,7 +147,7 @@ if selected == "Parkinsons Prediction":
 
 # Lung Cancer Prediction Page
 if selected == "Lung Cancer Prediction":
-    st.title("Lung Cancer Disease Prediction using ML")
+    st.title("Lung Cancer")
     st.write("Enter the following details to predict lung cancer:")
 
     GENDER = display_input('Gender (1 = Male; 0 = Female)', 'Enter gender of the person', 'GENDER', 'number')
@@ -174,7 +174,7 @@ if selected == "Lung Cancer Prediction":
 
 # Hypo-Thyroid Prediction Page
 if selected == "Hypo-Thyroid Prediction":
-    st.title("Hypo-Thyroid Prediction using ML")
+    st.title("Hypo-Thyroid")
     st.write("Enter the following details to predict hypo-thyroid disease:")
 
     age = display_input('Age', 'Enter age of the person', 'age', 'number')
